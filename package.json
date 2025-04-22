@@ -1,0 +1,30 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "React learnings",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betawars/react-learning.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "html",
+    "tailwind",
+    "sass",
+    "javascript"
+  ],
+  "author": "Shashank Betawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betawars/react-learning/issues"
+  },
+  "homepage": "https://github.com/betawars/react-learning#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
