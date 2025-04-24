@@ -2,7 +2,7 @@
   "name": "react-learning",
   "version": "1.0.0",
   "description": "React learnings",
-  "main": "app.js",
+  "default": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -26,5 +26,9 @@
   "homepage": "https://github.com/betawars/react-learning#readme",
   "devDependencies": {
     "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
