@@ -1,20 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading = React.createElement(
-    "h1",
-    { id: "title", className: "heading" },
-    "React"
-);
 
-const parent = React.createElement(
-    "div",
-    { id: "parent" },
-    React.createElement("div",
-        { id: "child" },
-        "Child 1"
-        
-    )
-)
+//Creating an element in React
+const heading = React.createElement("h1", null, "Hello wwwWorld!");
+
+
+// Creating an element in React using JSX
+const jsxHeadding = <h1>Hellow World</h1>
+
+// But both are the same, both of them are objects and can be rendered using root.render
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+
+root.render(heading) 
+root.render(jsxHeadding)
